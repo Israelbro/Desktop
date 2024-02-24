@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1346bc;
+    color: #fff;
+    text-align: center;
+    padding: 0.6px;
+}
+
+/* Additional styling for each section with background images */
+section {
+    background-size: cover;
+    background-position: center;
+    color: rgb(231, 232, 237);
+    padding: 50px 20px;
+}
+
+/* Homepage background image */
+section.homepage {
+    background-image:url("peakpx-8.jpg");
+}
+
+/* Childhood background image */
+section.childhood {
+    background-image: url("peakpx-8.jpg");
+}
+
+/* Education background image */
+section.education {
+    background-image: url('Education.jpeg');
+}
+
+/* Skills and Talents background image */
+section.skills {
+    background-image: url('peakpx-8.jpg');
+}
+
+/* Future Aspirations background image */
+section.future {
+    background-image: url('peakpx-8.jpg');
+}
+
+/* Contact Information background image */
+section.contact {
+    background-image: ("peakpx-8.jpg");
+    background-color: #d8dce4;
+    color: #fff;
+    text-align: center;
+    padding: 0.6px
+}
+
+h2, h3, p {
+    margin-bottom: 20px;
+}
